@@ -9,9 +9,9 @@ namespace HelloWorld13._2
 {
     // Ordem de sintaxe: 
     // Atributos privados, Linha 22.
-    // Propriedades autoimplementadas, Ex: Linhas 23 e 24.
+    // Properties autoimplementadas, Ex: Linhas 23 e 24.
     // Construtores, Ex: Linhas 26 - 33.
-    // Propriedades customizadas, Ex: Linhas 36 - 47.
+    // Properties customizadas, Ex: Linhas 36 - 47.
     // Outros métodos da classe, Ex: Linhas 50 - 72.
 
     class Produto
@@ -21,7 +21,7 @@ namespace HelloWorld13._2
 
         private string _nome; // '_nome' tem uma lógica particular no método 'set', logo não é possível usar auto propertie
         public int Quantidade { get; private set; } // declarando dessa forma elimina a criacão de um método get para propertie
-        public double Preco { get; private set; } // digitar: 'prop' + 2x'tab'  é uma talho pra criar automatico a auto propertie
+        public double Preco { get; private set; } // digitar: 'prop' + 2x'tab'  é uma atalho pra criar automatico a auto propertie
 
         public Produto(string nome, double preco, int quantidade)
         {
